@@ -1,0 +1,85 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d6d6d6;
+}
+.container-center{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.plus-button{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 50%;
+  text-align: center;
+
+}
+.fa-plus{
+  font-size: 60px;
+  color: yellow;
+  display: block;
+  margin-top: 20px;
+  transition: 0.7s;
+}
+
+.menu{
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  /*transform:scale(0);*/
+  border-radius: 50%;
+  border-style: double;
+  border-color: v;
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+  opacity: 0.5;
+  transition: 0.7s;
+}
+a {
+  display: inline-block;
+  position: absolute;
+  font-size: 15px;
+  color: #BBBBBB;
+}
+a:nth-child(1){
+  top: 6px;
+  left: 42px;
+}
+a:nth-child(2){
+  top: 25px;
+  left: 70px;
+}
+a:nth-child(3){
+  top: 60px;
+  left: 70px;
+}
+a:nth-child(4){
+  top: 80px;
+  left: 42px;
+}
+a:nth-child(5){
+  top: 25px;
+  left: 15px;
+}
+a:nth-child(6){
+  top: 60px;
+  left: 15px;
+}
+a:hover {
+  color: #c87f8a;
+}
