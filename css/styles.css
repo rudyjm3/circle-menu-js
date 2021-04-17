@@ -11,6 +11,12 @@ body{
   justify-content: center;
   align-items: center;
 }
+.menu-container{
+  display: flex;
+  height: 120px;
+  width: 120px;
+  position: absolute;
+}
 .plus-button{
   position: absolute;
   margin: auto;
@@ -23,8 +29,10 @@ body{
   background-color: red;
   border-radius: 50%;
   text-align: center;
+  cursor: pointer;
   -webkit-box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.3);
-box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.3);
+  z-index: 6;
 }
 .plus-button::before{
    content: ' ';
@@ -59,7 +67,7 @@ box-shadow: 5px 5px 10px -8px rgba(0,0,0,0.5);
   bottom: 0px;
   left: 0px;
   right: 0px;
-  z-index: -1;
+  z-index: 5;
   transition: 0.7s;
   -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
 box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
@@ -96,4 +104,21 @@ a:nth-child(6){
 }
 a:hover {
   color: #c87f8a;
+}
+
+.box{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background-color: red;
+  color: white;
+  padding: 10px;
+}
+.box h1{
+  font-weight: 600;
+  font-size: 35px;
+  text-align: center;
+  margin: 15px 0;
 }

@@ -19,21 +19,29 @@
   <script defer src="js/script.js"></script>
 </head>
 
-<body>
+<body onload="move('menu-container')">
 
   <div class="wrapper container-center">
-    <div class="plus-button toggle" id="plus-button toggle" onclick="menu-expand()">
-      <i class="fas fa-plus" id="plus"></i>
+    <nav class="menu-container" id="menu-container">
+      <div class="plus-button toggle" id="plus-button toggle" onclick="menu-expand()">
+        <i class="fas fa-plus" id="plus"></i>
+      </div>
+
+      <div class="menu" id="menu">
+        <a href="#"><i class="fas fa-home"></i></a>
+        <a href="#"><i class="fas fa-user"></i></a>
+        <a href="#"><i class="fas fa-video"></i></a>
+        <a href="#"><i class="fas fa-envelope"></i></a>
+        <a href="#"><i class="fas fa-camera"></i></a>
+        <a href="#"><i class="fas fa-cog"></i></i></a>
+      </div>
+    </nav>
+
+    <div class="box box1">
+      <h1>Dragable Circle Menu</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 
-    <div class="menu" id="menu">
-      <a href="#"><i class="fas fa-home"></i></a>
-      <a href="#"><i class="fas fa-user"></i></a>
-      <a href="#"><i class="fas fa-video"></i></a>
-      <a href="#"><i class="fas fa-envelope"></i></a>
-      <a href="#"><i class="fas fa-camera"></i></a>
-      <a href="#"><i class="fas fa-cog"></i></i></a>
-    </div>
   </div>
 
 
