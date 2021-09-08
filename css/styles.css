@@ -3,6 +3,7 @@ body{
   justify-content: center;
   align-items: center;
   background-color: #2a3158;
+  font-family: 'Poppins', sans-serif;
   overflow: hidden;
 }
 .container-center{
